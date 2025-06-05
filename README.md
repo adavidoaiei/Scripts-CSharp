@@ -16,7 +16,7 @@ A web scraping script for litoralulromanesc.ro that:
 - Extracts hotel names, locations, prices, and periods
 - Displays the information in a formatted output
 
-### 3. Time Humanizer (humanizer.cs)
+### 3. Time Humanizer (humanizerScript.cs)
 A script using the Humanizer library that:
 - Calculates time since .NET 9's release
 - Converts the timespan into human-readable format
