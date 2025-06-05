@@ -1,4 +1,4 @@
-#! /home/adavidoaiei/dotnet/dotnet run
+#!/home/adavidoaiei/dotnet/dotnet run
 
 Console.Write("Enter a number: ");
 int count;
