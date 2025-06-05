@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 using HtmlAgilityPack;
 
 
-lsvar httpClient = new HttpClient();
+var httpClient = new HttpClient();
 var html = await httpClient.GetStringAsync("https://www.litoralulromanesc.ro/oferte_litoral.htm");
 
 var htmlDocument = new HtmlDocument();
