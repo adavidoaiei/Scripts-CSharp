@@ -11,13 +11,13 @@ This script:
 
 ## Requirements
 
-- .NET SDK
+- .NET SDK 10 Preview
 
 ## Usage
 
 1. Navigate to the script directory:
    ```bash
-   cd /path/to/script/directory
+   cd Scripts-CSharp
    ```
 
 2. Run the script:
