@@ -26,13 +26,13 @@ A script using the Humanizer library that:
 
 - .NET SDK
 - HtmlAgilityPack (for scrapping.cs)
-- Humanizer package (for humanizer.cs)
+- Humanizer package (for humanizerScript.cs)
 
 ## Usage
 
 1. Navigate to the scripts directory:
    ```bash
-   cd /path/to/Scripts
+   cd ~/Desktop/Scripts
    ```
 
 2. Make scripts executable:
@@ -42,9 +42,9 @@ A script using the Humanizer library that:
 
 3. Run any script:
    ```bash
-   ./script.cs    # Run message generator
-   ./scrapping.cs # Run web scraper
-   ./humanizer.cs # Run time humanizer
+   ./script.cs           # Run message generator
+   ./scrapping.cs        # Run web scraper
+   ./humanizerScript.cs  # Run time humanizer
    ```
 
 ## Example Outputs
@@ -67,7 +67,7 @@ Period: 01.07-08.07
 ------------------------
 ```
 
-### Time Humanizer (humanizer.cs)
+### Time Humanizer (humanizerScript.cs)
 ```
 .NET 9 was released 6 months ago
 ```
