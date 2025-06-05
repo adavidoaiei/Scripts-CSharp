@@ -1,36 +1,55 @@
-# Message Generator Script
+# C# Scripts Collection
 
-A simple C# script that demonstrates basic console input/output and loop functionality.
+A collection of useful C# scripts demonstrating various programming concepts and functionalities.
 
-## Description
+## Scripts Overview
 
-This script:
-1. Prompts the user to enter a number
-2. Validates the input to ensure it's a valid integer
-3. Prints numbered messages to the console the specified number of times
+### 1. Message Generator (script.cs)
+A simple script that demonstrates basic console input/output and loop functionality.
+- Prompts for a number input
+- Validates the input
+- Prints numbered messages the specified number of times
+
+### 2. Web Scraper (scrapping.cs)
+A web scraping script for litoralulromanesc.ro that:
+- Fetches hotel offers
+- Extracts hotel names, locations, prices, and periods
+- Displays the information in a formatted output
+
+### 3. Time Humanizer (humanizer.cs)
+A script using the Humanizer library that:
+- Calculates time since .NET 9's release
+- Converts the timespan into human-readable format
+- Demonstrates date manipulation and formatting
 
 ## Requirements
 
-- .NET SDK 10 Preview
+- .NET SDK
+- HtmlAgilityPack (for scrapping.cs)
+- Humanizer package (for humanizer.cs)
 
 ## Usage
 
-1. Navigate to the script directory:
+1. Navigate to the scripts directory:
    ```bash
-   cd Scripts-CSharp
+   cd /path/to/Scripts
    ```
 
-2. Run the script:
+2. Make scripts executable:
    ```bash
-   ./script.cs
+   chmod +x *.cs
    ```
 
-3. When prompted, enter a positive integer
-   - The script will validate your input
-   - If you enter invalid input, it will keep asking until you provide a valid number
+3. Run any script:
+   ```bash
+   ./script.cs    # Run message generator
+   ./scrapping.cs # Run web scraper
+   ./humanizer.cs # Run time humanizer
+   ```
 
-## Example Output
+## Example Outputs
 
+### Message Generator (script.cs)
 ```
 Enter a number: 3
 This is message #1
@@ -38,7 +57,24 @@ This is message #2
 This is message #3
 ```
 
+### Web Scraper (scrapping.cs)
+```
+Hotel Found:
+Name: Example Hotel
+Location: Mamaia
+Price: 299 RON
+Period: 01.07-08.07
+------------------------
+```
+
+### Time Humanizer (humanizer.cs)
+```
+.NET 9 was released 6 months ago
+```
+
 ## Notes
 
-- The script uses input validation to ensure only valid integers are accepted
-- Each message is numbered sequentially starting from 1
+- All scripts are executable and use the .NET SDK
+- Some scripts require additional NuGet packages
+- The web scraper results may vary based on available offers
+- The humanizer script shows relative time based on current date
