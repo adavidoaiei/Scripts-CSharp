@@ -1,4 +1,5 @@
 ﻿#!/home/adavidoaiei/dotnet/dotnet run
+
 #:package Microsoft.SemanticKernel@1.59.0
 
 using Microsoft.SemanticKernel;
